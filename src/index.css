@@ -1,9 +1,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @custom-variant dark (&:is(.dark *));
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
