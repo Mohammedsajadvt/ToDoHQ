@@ -19,10 +19,10 @@ export default function CollapsibleSidebar() {
                     <div>
                         <SidebarMenu className="pt-14">
                             <SidebarMenuItem >
-                                <NavLink to="/dashboard">
+                                <NavLink  to="/dashboard">
                                     <SidebarMenuButton isActive>
                                         <DashboardIcon className="mr-2" />
-                                        <span>DashBoard</span>
+                              DashBoard
                                     </SidebarMenuButton>
                                 </NavLink>
                             </SidebarMenuItem>
@@ -73,10 +73,10 @@ export default function CollapsibleSidebar() {
                         <SidebarMenu>
                             <SidebarMenuItem>
                                 <NavLink to='/'>
-                                    <SidebarMenuButton isActive>
-                                    <ExitIcon className="mr-2" />
-                                    <span>Sign Out</span>
-                                </SidebarMenuButton>
+                                    <SidebarMenuButton isActive className="bg-transparent">
+                                        <ExitIcon className="mr-2" />
+                                        <span>Sign Out</span>
+                                    </SidebarMenuButton>
                                 </NavLink>
                             </SidebarMenuItem>
                         </SidebarMenu>

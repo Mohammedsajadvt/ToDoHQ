@@ -10,10 +10,7 @@ export interface LoginCredentials {
 }
 
 export interface RegisterCredentials extends LoginCredentials {
-    firstName:string;
-    lastName:string;
     username: string;
-    confirmPassword:string;
 }
 
 
