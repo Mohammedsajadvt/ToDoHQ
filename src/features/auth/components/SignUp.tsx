@@ -24,7 +24,7 @@ function SignUp() {
         </div>
         <Button className="min-w-30 flex mt-2 h-13" variant="default" size="lg">Register</Button>
         <p className="flex mt-3 text-sm text-muted-foreground text-center">Already have an account?{" "}
-          <Link to="/login" className="font-medium text-[#008BD9] hover:underline"> Sign In</Link>
+          <Link to="/" className="font-medium text-[#008BD9] hover:underline"> Sign In</Link>
         </p>
       </div>
     </div>

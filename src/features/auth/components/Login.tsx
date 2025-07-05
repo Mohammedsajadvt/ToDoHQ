@@ -17,7 +17,7 @@ function Login() {
                 </div>
                 <Button className="min-w-30 flex mt-3 h-13" variant="default" size="lg">Login</Button>
                 <p className="flex mt-8 text-sm text-muted-foreground text-center">Don’t have an account?{" "}
-                    <Link to="/login" className="font-medium text-[#008BD9] hover:underline">Create one</Link>
+                    <Link to="/register" className="font-medium text-[#008BD9] hover:underline">Create one</Link>
                 </p>
 
             </div>
